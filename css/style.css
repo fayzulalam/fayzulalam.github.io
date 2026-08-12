@@ -1050,3 +1050,27 @@ p {
     min-height: 360px;
   }
 }
+/* Navbar logo size fix */
+.site-header .brand span {
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+  max-width: 32px !important;
+  max-height: 32px !important;
+  overflow: hidden !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.site-header .brand span img {
+  width: 28px !important;
+  height: 28px !important;
+  min-width: 28px !important;
+  min-height: 28px !important;
+  max-width: 28px !important;
+  max-height: 28px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
