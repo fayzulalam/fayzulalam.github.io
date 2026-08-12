@@ -89,7 +89,7 @@ textarea {
 
 .welcome-label {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom:0.38rem;
   color: var(--primary);
   font-size: 0.8rem;
   font-weight: 700;
