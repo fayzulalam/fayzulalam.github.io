@@ -174,8 +174,11 @@ p {
   display: block;
   width: 32px;
   height: 32px;
+  max-width: 32px;
+  max-height: 32px;
   object-fit: contain;
 }
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -185,8 +188,6 @@ p {
   letter-spacing: -0.03em;
   color: var(--text);
 }
-
-
 
 .nav-menu {
   display: flex;
