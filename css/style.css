@@ -171,18 +171,7 @@ p {
   color: var(--text);
 }
 
-.brand span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), #7dd3fc);
-  color: white;
-  font-weight: 800;
-  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
-}
+
 
 .nav-menu {
   display: flex;
