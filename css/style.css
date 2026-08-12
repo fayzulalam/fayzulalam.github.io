@@ -92,12 +92,11 @@ textarea {
   margin-bottom: 0.45rem;
   color: var(--primary);
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   transform: translateY(-90px);
 }
-
 h1,
 h2,
 h3,
@@ -160,7 +159,23 @@ p {
   min-height: 80px;
   gap: 1rem;
 }
+.brand span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: transparent;
+  overflow: hidden;
+}
 
+.brand span img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
 .brand {
   display: inline-flex;
   align-items: center;
