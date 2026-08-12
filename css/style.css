@@ -89,14 +89,14 @@ textarea {
 
 .welcome-label {
   display: inline-block;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.85rem;
   color: var(--primary);
-  font-size: 24px;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  transform: translateY(-90px);
 }
+
 h1,
 h2,
 h3,
@@ -159,25 +159,6 @@ p {
   min-height: 80px;
   gap: 1rem;
 }
-.brand span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: transparent;
-  overflow: hidden;
-}
-
-.brand span img {
-  display: block;
-  width: 32px;
-  height: 32px;
-  max-width: 32px;
-  max-height: 32px;
-  object-fit: contain;
-}
 
 .brand {
   display: inline-flex;
@@ -187,6 +168,19 @@ p {
   font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--text);
+}
+
+.brand span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), #7dd3fc);
+  color: white;
+  font-weight: 800;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
 }
 
 .nav-menu {
@@ -1049,28 +1043,4 @@ p {
   .profile-wrapper {
     min-height: 360px;
   }
-}
-/* Navbar logo size fix */
-.site-header .brand span {
-  width: 32px !important;
-  height: 32px !important;
-  min-width: 32px !important;
-  min-height: 32px !important;
-  max-width: 32px !important;
-  max-height: 32px !important;
-  overflow: hidden !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.site-header .brand span img {
-  width: 28px !important;
-  height: 28px !important;
-  min-width: 28px !important;
-  min-height: 28px !important;
-  max-width: 28px !important;
-  max-height: 28px !important;
-  object-fit: contain !important;
-  display: block !important;
 }
